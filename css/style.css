@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap");
+
+/*=============
+| common style
+==============*/
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9fbfc;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0px 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* navbar style  */
+
+header {
+  margin-top: 20px;
+}
+
+.inner_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.logo_area img {
+  width: 100%;
+}
+
+#toggler_menu {
+  display: none;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.toggler_menu_btn {
+  color: #2500f9;
+  cursor: pointer;
+}
+
+.menubar ul {
+  display: flex;
+  align-items: center;
+}
+
+.menubar ul li {
+  padding: 0px 20px;
+}
+
+.menubar ul li a {
+  font-size: 16px;
+  line-height: 44px;
+  color: #242f51;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+}
+
+.menubar ul li a:hover {
+  color: #fcae61;
+}
+
+.trial_button {
+  width: 170px;
+  height: 57px;
+  border-radius: 29px;
+  background-color: #2500f9;
+  font-size: 16px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/*=========
+ banner css
+ ============  */
+
+#banner_section {
+  background-image: url("./../img/hero_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  max-height: calc(100vh-80px);
+}
+.banner_img {
+  max-width: 300px;
+}
+.banner_img img {
+  width: 100%;
+}
+
+.banner_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner_text h6 {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 28px;
+  color: #242f51;
+  font-weight: 400;
+  width: 362px;
+  height: 35px;
+  border-radius: 17px;
+  background-color: #e2eaed;
+}
+
+.banner_text h6 i {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  width: 39px;
+  height: 35px;
+  border-radius: 17px;
+  background-color: #feaa25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_text h1 {
+  font-size: 60px;
+  line-height: 75px;
+  color: #242f51;
+  font-weight: 600;
+  padding: 15px 0;
+}
+
+.banner_text p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #616368;
+  font-weight: 400;
+  padding: 0 0 20px 0;
+}
+
+.demo_btn {
+  font-size: 16px;
+  line-height: 44px;
+  color: #2500f9;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/*================
+ ** client section 
+ ================ */
+.client_section {
+  margin-top: 50px;
+}
+
+.client_section h6 {
+  font-size: 16px;
+  line-height: 28px;
+  color: #242f51;
+  font-weight: 400;
+  text-align: center;
+}
+.client_img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 14px;
+  padding: 0px 74px;
+}
+.client_img img {
+  padding: 10px 10px;
+}
+
+/* ==============
+*feature content  
+===================*/
+
+.feature_section {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.feature_banner img {
+  width: 100%;
+}
+.feature__text {
+  margin-top: 50px;
+  
+}
+.feature__text h1{
+  max-width: 281px;
+}
+.feature__text p{
+  max-width: 428px;
+  margin-bottom: 90px;
+}
+
+.features_categories {
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.feature_img {
+    max-width: 66px;
+    max-height: 66px;
+    border-radius: 44px;
+    background-color: #ffecef;
+    align-self: center;
+    margin-top: 25px;
+}
+.feature_img img{
+    width: 100%;
+}
+.feature_info {
+    margin-left: 24px;
+    max-width: 259px;
+}
+.feature_info h6 {
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: 600;
+}
+
+.feature_info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+}
+
+.first_feature_info {
+    color: #f55767;
+}
+
+.second_feature_info {
+    color: #2563ff;
+}
+
+.third_feature_info {
+    color: #40975f;
+}
+
+
+

@@ -1,0 +1,136 @@
+/* ===========
+large screen  
+==============*/
+
+@media only screen and (min-width: 993px) {
+  .toggler_menu_btn {
+    display: none;
+  }
+}
+
+/* ==============
+desktop version  
+=================*/
+
+@media only screen and (max-width: 992px) {
+  .toggler_menu_btn {
+    display: block;
+    margin-left: 100px;
+  }
+
+  .menubar {
+    width: calc(100% - 20px);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    z-index: 99;
+    margin: 0;
+    padding: 20px 0px 20px 35px;
+    background: rgba(0, 0, 0, 0.7);
+    transform-origin: top;
+    transform: translateY(-500px);
+    transition: 0.9s linear;
+  }
+  .menubar ul {
+    display: block;
+    margin-top: 20px 0px 20px 50px;
+  }
+
+  .menubar ul li a {
+    color: white;
+  }
+
+  #toggler_menu:checked ~ .menubar {
+    transform: translateY(0px);
+  }
+  #banner_section {
+    background-size: 100%;
+    background-position: left bottom;
+  }
+
+  .banner_text h1 {
+    font-size: 48px;
+    line-height: 63px;
+  }
+
+  .feature_section {
+    flex-direction: column-reverse;
+  }
+  .feature__text h1 {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  .feature__text p {
+    margin-top: 20px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  .features_categories {
+    flex-direction: column;
+  }
+  .feature_info {
+    text-align: center;
+  }
+}
+
+/* ==========
+tab version
+============= */
+
+@media screen and (max-width: 768px) {
+  #banner_section {
+    margin: 60px 0;
+  }
+  .banner_content {
+    flex-direction: column-reverse;
+  }
+  .banner_text {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .banner_img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+
+  /* client section  */
+  .client_img {
+    flex-wrap: wrap;
+  }
+  .features_categories {
+    flex-direction: column;
+  }
+  .feature_info {
+    text-align: center;
+  }
+}
+
+/*=============
+ mobile version 
+=============== */
+
+@media screen and (max-width: 570px) {
+  .banner_text h6 {
+    max-width: 280px;
+    font-size: 14px;
+  }
+  .banner_text h1 {
+    font-size: 32px;
+    line-height: 47px;
+  }
+  .banner_btn {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .features_categories {
+    flex-direction: column;
+  }
+  .feature_info {
+    text-align: center;
+  }
+}
