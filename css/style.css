@@ -217,62 +217,116 @@ header {
 }
 .feature__text {
   margin-top: 50px;
-  
 }
-.feature__text h1{
+.feature__text h1 {
   max-width: 281px;
 }
-.feature__text p{
+.feature__text p {
   max-width: 428px;
   margin-bottom: 90px;
 }
 
 .features_categories {
-    display: flex;
-    justify-content:baseline;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .feature_img {
-    max-width: 66px;
-    max-height: 66px;
-    border-radius: 44px;
-    background-color: #ffecef;
-    align-self: center;
-    margin-top: 25px;
+  max-width: 66px;
+  max-height: 66px;
+  border-radius: 44px;
+  background-color: #ffecef;
+  align-self: center;
+  margin-top: 25px;
 }
-.feature_img img{
-    width: 100%;
+.feature_img img {
+  width: 100%;
 }
 .feature_info {
-    margin-left: 24px;
-    max-width: 259px;
+  margin-left: 24px;
+  max-width: 259px;
 }
 .feature_info h6 {
-    font-size: 20px;
-    line-height: 58px;
-    font-weight: 600;
+  font-size: 20px;
+  line-height: 58px;
+  font-weight: 600;
 }
 
 .feature_info p {
-    font-size: 16px;
-    line-height: 26px;
-    color: #616368;
-    font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
 }
 
 .first_feature_info {
-    color: #f55767;
+  color: #f55767;
 }
 
 .second_feature_info {
-    color: #2563ff;
+  color: #2563ff;
 }
 
 .third_feature_info {
-    color: #40975f;
+  color: #40975f;
 }
 
+/* ================
+*jackpot section
+================  */
 
+.jackpot_article {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.jackpot_article h2 {
+  max-width: 424px;
+  font-size: 40px;
+  line-height: 50px;
+  color: #242f51;
+  font-weight: 600;
+}
+.jackpot_article p {
+  max-width: 406px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+}
+
+.jackpot_info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.jackpot_img {
+  text-align: center;
+}
+
+.jackpot_img img {
+  width: 88px;
+  height: 88px;
+  border-radius: 44px;
+  background-color: #ffecef;
+}
+
+.jackpot_text h6 {
+  font-size: 20px;
+  line-height: 58px;
+  font-weight: 600;
+  max-width: 245px;
+  text-align: center;
+}
+.jackpot_text p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+  max-width: 260px;
+  text-align: center;
+}

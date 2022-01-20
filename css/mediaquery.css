@@ -73,6 +73,14 @@ desktop version
   .feature_info {
     text-align: center;
   }
+
+   /* jackpot section  */
+  .jackpot_article{
+    flex-direction: column;
+  }
+  .jackpot_info {
+  flex-wrap: wrap;
+  }
 }
 
 /* ==========
@@ -106,7 +114,17 @@ tab version
   .feature_info {
     text-align: center;
   }
+
+  /* jackpot section  */
+  .jackpot_article{
+    flex-direction: column
+  }
+  .jackpot_info {
+  flex-wrap: wrap;
+  }
 }
+
+
 
 /*=============
  mobile version 
@@ -134,3 +152,4 @@ tab version
     text-align: center;
   }
 }
+
